@@ -1,0 +1,7 @@
+* var: global e local
+
+* let: local
+
+* const: local, não muda o valor da variável, ao contrário de let e var, 
+
+O tipo da variável vai ser atribuído de acordo com o valor associado

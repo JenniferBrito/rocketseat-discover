@@ -31,3 +31,22 @@ console.log(el.lastElementChild)
 const elem = document.querySelector('header')
 
 console.log(elem.nextSibling)
+
+
+// eventos
+
+function print(){
+    console.log('print')
+}
+
+const input = document.querySelector('input')
+
+/* input.onkeyup('') */
+
+const h1 = document.querySelector('h1')
+
+h1.addEventListener('click', print)
+
+h1.onmouseover = function(){
+    console.log('outro momento')
+}
